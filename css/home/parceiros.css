@@ -59,3 +59,21 @@
     border-top: 2px solid var(--cor-2);
   }
 }
+
+@media (max-width: 600px) {
+  .parceiros h2 {
+    text-align: center;
+  }
+
+  .parceiros ul {
+    grid-template-columns: 1fr;
+  }
+
+  .parceiros li:nth-child(2) {
+    border-top: 2px solid var(--cor-2);
+  }
+
+  .parceiros li:nth-child(even) {
+    border-left: none;
+  }
+}
