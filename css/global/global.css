@@ -24,6 +24,12 @@ a {
   color: inherit;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 img[src$=".jpg"] {
   display: block;
   max-width: 100%;
